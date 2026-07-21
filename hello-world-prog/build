@@ -1,0 +1,26 @@
+#!/bin/bash
+set -e
+
+nasm -f bin boot.asm -o boot.bin
+
+run() {
+    qemu-system-x86_64.exe -hda boot.bin
+}
+
+image() {
+    dd if=/dev/zero of=myos.img bs=1M count=10
+
+    dd if=boot.bin of=myos.img conv=notrunc
+}
+
+case "$1" in
+    run)
+        run
+        ;;
+    image)
+        image
+        ;;
+    *)
+        echo "Usage: $0 {run|image}"
+        ;;
+esac
