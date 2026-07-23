@@ -40,7 +40,7 @@ step2:
     cli                 ; Clear Interrupt Flag
                         ; Disable hardware interrupts while setting stack
 
-    mov ax,0x7C0        ; AX = 0x7C0
+    mov ax,0x7C0        ; AX = 0x7C0  we usin ax cuz You cannot move an immediate value directly into a segment register in 16-bit x86.
 
     mov ds,ax           ; DS (Data Segment) = 0x7C0
                         ; Variables like [boot_drive] now use this segment
