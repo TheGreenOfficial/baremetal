@@ -17,9 +17,8 @@ _start:
     nop                 ; No Operation (does absolutely nothing)
                         ; Traditionally boot sectors begin with JMP + NOP
 
-times 33 db 0           ; Reserve 33 bytes filled with 0
-                        ; Later these become the FAT BIOS Parameter Block (BPB)
-                        ; Right now they're just empty placeholders
+times 33 db 0           ; times is not an x86 instruction. It's a NASM assembler directive.  it Repeat db 0 exactly 33 times. In a real boot sector, right after jmp and nop comes something called the BIOS Parameter Block (BPB).
+                        ; Since we haven't implemented FAT yet, you're just reserving the space
 
 boot_drive db 0         ; Reserve 1 byte variable
                         ; We'll store BIOS's boot drive number here
