@@ -48,7 +48,7 @@ step2:
                         ; BIOS disk reads use ES:BX
 
     xor ax,ax           ; AX = 0
-                        ; Faster/smaller than "mov ax,0"
+                        ; Faster/smaller than mov ax,0
 
     mov ss,ax           ; SS (Stack Segment) = 0
 
