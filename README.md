@@ -1,1 +1,1 @@
-blah blah blah..
+sry i can't explan anything.. barely managed myself..
