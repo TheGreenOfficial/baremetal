@@ -1,39 +1,39 @@
 [✓] Boot sector <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [✓] Print text through BIOS <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [✓] Read disk <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [✓] Enter protected mode <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Load a second-stage bootloader <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Stop depending on BIOS <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Set up IDT <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Hardware interrupts <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Keyboard driver <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] VGA/framebuffer output <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Physical memory manager <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Paging <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Long mode (x86-64) <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Kernel written in C/Rust/Assembly <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Heap allocator <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Filesystem <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Processes <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] System calls <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;↓ <br>
 [ ] Userspace <br>
-        ↓ <br>
+&nbsp;&nbsp;&nbsp;↓ <br>
        OS <br>
