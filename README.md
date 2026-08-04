@@ -1,3 +1,3 @@
-did out of curiosity with no knowledge.. <br>
-sry i can't explan anything.. <br>
-barely managed myself.. <br>
+did out of curiosity with zero knowledge.. <br>
+sry i can't document anything properly.. <br>
+barely managed to figure/do it myself.. <br>
