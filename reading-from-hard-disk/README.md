@@ -7,7 +7,7 @@
 
 <br>
 
-**adding ai explanation of boot.asm in comments:**
+**adding llm explanation of boot.asm in comments:**
 ```
 ORG 0                   ; NASM: pretend this program starts at offset 0
 BITS 16                 ; Generate 16-bit instructions
