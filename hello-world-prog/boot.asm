@@ -9,7 +9,7 @@ print_char:
     mov al, [si]              ; get current character
     cmp al, 0                 ; reached the end of the string or found 0x00
     je done                   ; if yes, stop printing and jump to done else do nothing
-    int 0x10                  ; bios teletype prints the character in dl register
+    int 0x10                  ; bios teletype prints the character in al register
     inc si                    ; move/point to the next character in that pointer si
     jmp print_char            ; keep printing until it hits jz ..
 
